@@ -1,28 +1,15 @@
 #include <stdio.h>
 
-
-
 /**
+ * main - Entry point
  *
- *  * main - Entry point
+ * Description: using sizeof to print the size of various types.
  *
- *   *
- *
- *    * Description: using sizeof to print the size of various types.
- *
- *     *
- *
- *      * Return: Always 0 (Succesful)
- *
- *      */
-
-
+ * Return: Always 0 (Succesful)
+ */
 
 int main(void)
-
 {
-
-
 
 		/* sizeof evaluates the size of a variable */
 
@@ -39,9 +26,7 @@ int main(void)
 							printf("Size of a float: %lu byte(s)\n", sizeof(float));
 
 
-
-								return (0);
-
+							return (0);
 
 
 }
